@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-us" data-ng-app="gitApp" data-ng-controller="gitController">
+    <head>
+        <meta charset="utf-8">
+
+        <title data-ng-bind="pageTitle + ' | Git-Technetium'">Git-Technetium</title>
+
+        <!-- Bootstrap Core CSS -->
+        <link href="vendor/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link href="css/admin.css" rel="stylesheet">
+
+        <!-- jQuery -->
+        <script src="vendor/jquery/dist/jquery.min.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+
+        <!-- LIBRARIES -->
+        <script src="vendor/angular/angular.js"></script>
+        <script src="vendor/angular-ui-router/release/angular-ui-router.min.js"></script>
+        <script src="vendor/async/lib/async.js"></script>
+
+        <script src="scripts/app.js"></script>
+
+
+        <!-- CONTROLLERS -->
+        <script src="scripts/controllers/gitController.js"></script>
+        <script src="scripts/controllers/issuesController.js"></script>
+
+        <!-- FACTORIES -->
+        <script src="scripts/factories/issuesFactory.js"></script>
+
+    </head>
+
+    <body>
+        <div data-ui-view></div>
+        <!-- Navbar will always be present -->
+        <div ng-include="'addons/navbar.html'"></div>
+    </body>
+</html>
