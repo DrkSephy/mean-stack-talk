@@ -1,4 +1,5 @@
-##### mean-full-stack
+mean-full-stack
+---------------
 
 Minimal example of building a web application using ExpressJS, AngularJS, NodeJS and the Github API for a presentation within my `Advanced Topics in Web Programming` class.
 
