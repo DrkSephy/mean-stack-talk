@@ -1,5 +1,5 @@
 module.exports = {
     PORT: '8080',
-    CLIENT_ID: '',
-    CLIENT_SECRET: ''
+    CLIENT_ID: 'your-bitbucket-id-here',
+    CLIENT_SECRET: 'your-bitbucket-secret-here'
 };
